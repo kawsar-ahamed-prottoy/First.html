@@ -1,0 +1,242 @@
+.main_page
+{
+   width: 100%;
+
+
+}
+
+/*this navigation part*/
+.cover_sub
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/main_cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.nav
+{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(rgb(202, 179, 179), green, blue, 0.12);
+    padding-top: 20px;
+    text-align: end;
+    display: flex;
+    
+}
+.lgo
+{
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    margin: -20px;
+}
+.lgo h1
+{
+    color: rgb(236, 205, 205);
+    font-weight: 500;
+    font-style: italic;
+}
+.lgo a
+{
+    text-decoration: none;
+}
+.navi
+{
+    width: 80%;
+}
+
+.navi a
+{
+    
+    font-size: 20px;
+    padding: 15px 15px ;
+    /* padding-right: 40px; */
+    text-decoration: none;  
+    text-align: end; 
+    border-radius: 5px;
+}
+.navi a:hover
+{
+    color: black;
+    text-decoration-line: overline;
+    background-color: rgb(232, 232, 243);
+    transition:ease-in 300ms;
+}
+
+.cover_info
+{
+    width: 100%;
+    height: 300px;
+   
+}
+.cover_info h1{
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+    padding-left: 730px;
+    font-style: italic;
+    text-align: left;
+}
+.cover_info p{
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    padding-left: 750px;
+}
+.link{
+    width: 70%;
+    text-align: end;
+
+}
+.link a{
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    background-color: rgb(136, 48, 102);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.link a:hover{
+    color: rgb(223, 210, 210);
+    font-weight: 200;
+    font-size: 20px;
+    background-color: rgb(24, 8, 18);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* this is secounnd section */
+
+.detais_sub
+{ 
+    margin-top: 2px;
+    width: 100%;
+   
+    background-color: rgb(39, 37, 37);
+    
+}
+
+.intro_heading h1{
+    padding-top: px;
+}
+
+.intro
+{
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    padding-top: 1px;
+}
+.first_row
+{
+    width: 100%;
+    display: inline;
+    display:flex;
+    justify-content :space-around;
+}
+.same_box
+{
+    width: 20%;
+    height: 350px;
+    margin: 2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+  
+}
+.same_box:hover
+{
+    box-shadow: 2px 2px 5px rgb(241, 228, 228);
+    /* transition-delay: 170ms;
+    transition-duration: 500ms; */
+    transition:ease-in 500ms;
+    transition: ease-out 500ms;
+}
+
+.same_box h3{
+    padding-left: 30px;
+    color: goldenrod;
+}
+.same_box p{
+    line-height: 30px;
+    padding-left: 30px;
+    color: gray;
+}
+.same_box a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+}
+.same_box a:hover{
+    text-decoration: none;
+    padding-left: 30px;
+    color: rgb(165, 207, 102);
+}
+
+.logo_case{
+    font-size: 40px;
+    color: rgb(135, 206, 126);
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.cover_btr
+{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/lower.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.cover_action{
+    height: 300px;
+    width: 50%;
+    background-color: rgba(199, 171, 171, 0.12);
+    text-align: center;
+    border-radius: 10px;
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition-duration: 700ms;
+}
+.cover_action:hover{
+    background-color: rgba(199, 171, 171, 0.42);
+   
+}
+.inputer{
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    height: 30px;
+    width: 330px;
+    font-size: larger;
+    text-align: center;
+    transition-property: border-radious;
+    transition-duration: 700ms;
+}
+.inputer:hover{
+    border: 2px solid rgb(228, 199, 199);
+}
+.cover_action a{
+    color: whitesmoke;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cover_action a:hover{
+    color: black;
+}
